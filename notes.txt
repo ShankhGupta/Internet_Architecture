@@ -1,0 +1,816 @@
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.uct.ac.za
+
+Tracing route to cms-vip-prd.uct.ac.za [137.158.159.192]
+over a maximum of 100 hops:
+
+  1     2 ms     1 ms    26 ms  10.184.0.13
+  2    11 ms     4 ms     3 ms  10.254.175.1
+  3    33 ms     7 ms     2 ms  10.255.1.34
+  4    17 ms     3 ms     1 ms  10.119.233.65
+  5    47 ms    41 ms    41 ms  10.1.207.69
+  6    27 ms    41 ms    22 ms  10.1.200.137
+  7    42 ms    42 ms    39 ms  10.255.238.254
+  8    55 ms    41 ms    40 ms  180.149.48.18
+  9   191 ms   176 ms   177 ms  180.149.48.6
+ 10   165 ms   172 ms   176 ms  180.149.48.20
+ 11   207 ms   179 ms   204 ms  xe-0-0-2-0-600-ams1-ir1.net.tenet.ac.za [155.232.220.18]
+ 12   348 ms   352 ms   356 ms  xe-0-0-1-1-10-mtz1-ir1.net.tenet.ac.za [155.232.1.21]
+ 13   376 ms   364 ms   359 ms  et-1-1-1-0-isd1-pe1.net.tenet.ac.za [155.232.1.153]
+ 14   384 ms   389 ms   400 ms  et-1-1-4-0-cpt3-pe1.net.tenet.ac.za [155.232.1.148]
+ 15   361 ms   361 ms   362 ms  et-0-0-1-0-cpt7-pe1.net.tenet.ac.za [155.232.64.70]
+ 16   394 ms   390 ms   366 ms  154.114.124.1
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+ 31     *        *        *     Request timed out.
+ 32     *        *        *     Request timed out.
+ 33     *        *        *     Request timed out.
+ 34     *        *        *     Request timed out.
+ 35     *        *        *     Request timed out.
+ 36     *        *        *     Request timed out.
+ 37     *        *        *     Request timed out.
+ 38     *        *        *     Request timed out.
+ 39     *        *        *     Request timed out.
+ 40     *        *        *     Request timed out.
+ 41     *        *        *     Request timed out.
+ 42     *        *        *     Request timed out.
+ 43     *        *        *     Request timed out.
+ 44     *        *        *     Request timed out.
+ 45     *        *        *     Request timed out.
+ 46     *        *        *     Request timed out.
+ 47     *        *        *     Request timed out.
+ 48     *        *        *     Request timed out.
+ 49     *        *        *     Request timed out.
+ 50     *        *        *     Request timed out.
+ 51     *        *        *     Request timed out.
+ 52     *        *        *     Request timed out.
+ 53     *        *        *     Request timed out.
+ 54     *        *        *     Request timed out.
+ 55     *        *        *     Request timed out.
+ 56     *        *        *     Request timed out.
+ 57     *        *        *     Request timed out.
+ 58     *        *        *     Request timed out.
+ 59     *        *        *     Request timed out.
+ 60     *        *        *     Request timed out.
+ 61     *        *        *     Request timed out.
+ 62     *        *        *     Request timed out.
+ 63     *        *        *     Request timed out.
+ 64     *        *        *     Request timed out.
+ 65     *        *        *     Request timed out.
+ 66     *        *        *     Request timed out.
+ 67     *        *        *     Request timed out.
+ 68     *        *        *     Request timed out.
+ 69     *        *        *     Request timed out.
+ 70     *        *        *     Request timed out.
+ 71     *        *        *     Request timed out.
+ 72     *        *        *     Request timed out.
+ 73  ^C
+C:\Users\Piyush Chauhan>tracert /h 100 www.iitd.ac.in
+
+Tracing route to www.iitd.ac.in [10.10.211.212]
+over a maximum of 100 hops:
+
+  1     2 ms     1 ms     2 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.5
+  3     1 ms     1 ms     1 ms  10.254.236.6
+  4     1 ms     1 ms     2 ms  www.iitd.ac.in [10.10.211.212]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.google.com
+
+Tracing route to www.google.com [142.250.207.196]
+over a maximum of 100 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     1 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  10.119.234.162
+  7     3 ms     9 ms     3 ms  72.14.194.160
+  8     4 ms     6 ms     4 ms  108.170.251.97
+  9     4 ms     5 ms     3 ms  142.251.76.169
+ 10     4 ms     4 ms     4 ms  del12s10-in-f4.1e100.net [142.250.207.196]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert www.facebook.com
+
+Tracing route to star-mini.c10r.facebook.com [157.240.16.35]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     1 ms     1 ms     1 ms  10.254.175.1
+  3     1 ms     1 ms     1 ms  10.255.1.34
+  4     1 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6    24 ms    24 ms    24 ms  10.1.200.137
+  7    26 ms    26 ms    26 ms  10.255.238.254
+  8    24 ms    24 ms    24 ms  10.152.7.214
+  9    26 ms    27 ms    26 ms  10.152.7.233
+ 10    26 ms    27 ms    68 ms  ae2.pr02.bom1.tfbnw.net [157.240.66.204]
+ 11    30 ms    30 ms    33 ms  po102.psw03.bom1.tfbnw.net [157.240.44.27]
+ 12    38 ms    39 ms    38 ms  173.252.67.147
+ 13    27 ms    27 ms    27 ms  edge-star-mini-shv-01-bom1.facebook.com [157.240.16.35]
+
+Trace complete.
+-----using internet------
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.utah.edu
+
+Tracing route to www.utah.edu [64:ff9b::9b62:ba15]
+over a maximum of 100 hops:
+
+  1     4 ms     3 ms     3 ms  2409:40d0:14:3bf7::db
+  2    71 ms    27 ms    36 ms  2405:200:5202:21:3924:0:3:19
+  3    31 ms    23 ms    36 ms  2405:200:5202:21:3925::ff08
+  4    53 ms    36 ms    36 ms  2405:200:805:3630:61::4
+  5    61 ms    37 ms    46 ms  64:ff9b::ac11:be82
+  6    62 ms    35 ms    36 ms  64:ff9b::c0a8:2c1a
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11   101 ms    76 ms    60 ms  64:ff9b::67c6:8caa
+ 12   411 ms   343 ms   608 ms  64:ff9b::312d:455
+ 13   364 ms   390 ms   354 ms  be4844.ccr41.lax05.atlas.cogentco.com [64:ff9b::2668:54d1]
+ 14   343 ms   490 ms   306 ms  be3243.ccr41.lax01.atlas.cogentco.com [64:ff9b::9a36:1b75]
+ 15   534 ms   315 ms   321 ms  be3176.ccr21.sjc01.atlas.cogentco.com [64:ff9b::9a36:1fbe]
+ 16   317 ms   283 ms   286 ms  be3178.ccr21.sfo01.atlas.cogentco.com [64:ff9b::9a36:2b45]
+ 17   340 ms   312 ms   635 ms  be3109.ccr21.slc01.atlas.cogentco.com [64:ff9b::9a36:2c8a]
+ 18   364 ms   623 ms   350 ms  be2685.rcr01.b020767-1.slc01.atlas.cogentco.com [64:ff9b::9a36:2976]
+ 19   299 ms   561 ms   304 ms  64:ff9b::268e:e93a
+ 20   314 ms   288 ms   561 ms  lv3-beibr-a-184-int.uen.net [64:ff9b::8cc5:f975]
+ 21   296 ms   514 ms   310 ms  ebc-pep-a-178-int.uen.net [64:ff9b::8cc5:fd17]
+ 22     *        *        *     Request timed out.
+ 23   321 ms   305 ms   449 ms  64:ff9b::c768:5d16
+ 24   337 ms   305 ms   314 ms  64:ff9b::c768:5d21
+ 25   528 ms   283 ms   392 ms  64:ff9b::9b63:8241
+ 26   306 ms   289 ms   317 ms  64:ff9b::9b63:8267
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30   325 ms   286 ms   305 ms  uhome.web.utah.edu [64:ff9b::9b62:ba15]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.uct.ac.za
+
+Tracing route to cms-vip-prd.uct.ac.za [64:ff9b::899e:9fc0]
+over a maximum of 100 hops:
+
+  1     4 ms     4 ms     4 ms  2409:40d0:14:3bf7::db
+  2    59 ms    22 ms    36 ms  2405:200:5202:21:3924:0:3:19
+  3    56 ms    36 ms    36 ms  2405:200:5202:21:3925::ff08
+  4    51 ms    29 ms    38 ms  2405:200:805:3630:61::4
+  5    32 ms    37 ms    24 ms  64:ff9b::ac11:be82
+  6    60 ms    23 ms    37 ms  64:ff9b::c0a8:2c1a
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11   140 ms    76 ms    95 ms  64:ff9b::67c6:8cb0
+ 12   210 ms   230 ms   181 ms  64:ff9b::67c6:8cd7
+ 13   204 ms   184 ms   192 ms  64:ff9b::67c6:8c2d
+ 14   208 ms   189 ms   194 ms  64:ff9b::c342:e37e
+ 15   244 ms   199 ms   197 ms  lt-0-1-0-0-ldn1-ir1.net.tenet.ac.za [64:ff9b::9be8:d00a]
+ 16   216 ms   187 ms   196 ms  et-0-1-0-0-ams1-ir1.net.tenet.ac.za [64:ff9b::9be8:1b3]
+ 17   377 ms   361 ms     *     ae0-306-mtz1-ir1.net.tenet.ac.za [64:ff9b::9be8:156]
+ 18   398 ms   381 ms   368 ms  lt-1-0-0-1-mtz1-ir1.net.tenet.ac.za [64:ff9b::9be8:9816]
+ 19   384 ms   558 ms   629 ms  lt-1-0-0-0-mtz1-ir1.net.tenet.ac.za [64:ff9b::9be8:9817]
+ 20   561 ms   643 ms   628 ms  et-1-1-1-0-isd1-pe1.net.tenet.ac.za [64:ff9b::9be8:199]
+ 21   603 ms   635 ms   635 ms  et-1-1-4-0-cpt3-pe1.net.tenet.ac.za [64:ff9b::9be8:194]
+ 22   525 ms   637 ms   634 ms  et-0-0-1-0-cpt7-pe1.net.tenet.ac.za [64:ff9b::9be8:4046]
+ 23   562 ms   633 ms   639 ms  64:ff9b::9a72:7c01
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+ 31     *        *        *     Request timed out.
+ 32     *        *        *     Request timed out.
+ 33     *        *        *     Request timed out.
+ 34     *        *        *     Request timed out.
+ 35     *        *        *     Request timed out.
+ 36     *        *        *     Request timed out.
+ 37     *        *        *     Request timed out.
+ 38     *        *        *     Request timed out.
+ 39     *        *        *     Request timed out.
+ 40     *        *        *     Request timed out.
+ 41     *        *        *     Request timed out.
+ 42     *        *        *     Request timed out.
+ 43     *        *        *     Request timed out.
+ 44     *        *        *     Request timed out.
+ 45     *        *        *     Request timed out.
+ 46     *        *        *     Request timed out.
+ 47     *        *        *     Request timed out.
+ 48     *        *        *     Request timed out.
+ 49  ^C
+C:\Users\Piyush Chauhan>
+C:\Users\Piyush Chauhan>tracert /h 100 www.uct.ac.za
+
+Tracing route to cms-vip-prd.uct.ac.za [137.158.159.192]
+over a maximum of 100 hops:
+
+  1     2 ms     1 ms    26 ms  10.184.0.13
+  2    11 ms     4 ms     3 ms  10.254.175.1
+  3    33 ms     7 ms     2 ms  10.255.1.34
+  4    17 ms     3 ms     1 ms  10.119.233.65
+  5    47 ms    41 ms    41 ms  10.1.207.69
+  6    27 ms    41 ms    22 ms  10.1.200.137
+  7    42 ms    42 ms    39 ms  10.255.238.254
+  8    55 ms    41 ms    40 ms  180.149.48.18
+  9   191 ms   176 ms   177 ms  180.149.48.6
+ 10   165 ms   172 ms   176 ms  180.149.48.20
+ 11   207 ms   179 ms   204 ms  xe-0-0-2-0-600-ams1-ir1.net.tenet.ac.za [155.232.220.18]
+ 12   348 ms   352 ms   356 ms  xe-0-0-1-1-10-mtz1-ir1.net.tenet.ac.za [155.232.1.21]
+ 13   376 ms   364 ms   359 ms  et-1-1-1-0-isd1-pe1.net.tenet.ac.za [155.232.1.153]
+ 14   384 ms   389 ms   400 ms  et-1-1-4-0-cpt3-pe1.net.tenet.ac.za [155.232.1.148]
+ 15   361 ms   361 ms   362 ms  et-0-0-1-0-cpt7-pe1.net.tenet.ac.za [155.232.64.70]
+ 16   394 ms   390 ms   366 ms  154.114.124.1
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+ 31     *        *        *     Request timed out.
+ 32     *        *        *     Request timed out.
+ 33     *        *        *     Request timed out.
+ 34     *        *        *     Request timed out.
+ 35     *        *        *     Request timed out.
+ 36     *        *        *     Request timed out.
+ 37     *        *        *     Request timed out.
+ 38     *        *        *     Request timed out.
+ 39     *        *        *     Request timed out.
+ 40     *        *        *     Request timed out.
+ 41     *        *        *     Request timed out.
+ 42     *        *        *     Request timed out.
+ 43     *        *        *     Request timed out.
+ 44     *        *        *     Request timed out.
+ 45     *        *        *     Request timed out.
+ 46     *        *        *     Request timed out.
+ 47     *        *        *     Request timed out.
+ 48     *        *        *     Request timed out.
+ 49     *        *        *     Request timed out.
+ 50     *        *        *     Request timed out.
+ 51     *        *        *     Request timed out.
+ 52     *        *        *     Request timed out.
+ 53     *        *        *     Request timed out.
+ 54     *        *        *     Request timed out.
+ 55     *        *        *     Request timed out.
+ 56     *        *        *     Request timed out.
+ 57     *        *        *     Request timed out.
+ 58     *        *        *     Request timed out.
+ 59     *        *        *     Request timed out.
+ 60     *        *        *     Request timed out.
+ 61     *        *        *     Request timed out.
+ 62     *        *        *     Request timed out.
+ 63     *        *        *     Request timed out.
+ 64     *        *        *     Request timed out.
+ 65     *        *        *     Request timed out.
+ 66     *        *        *     Request timed out.
+ 67     *        *        *     Request timed out.
+ 68     *        *        *     Request timed out.
+ 69     *        *        *     Request timed out.
+ 70     *        *        *     Request timed out.
+ 71     *        *        *     Request timed out.
+ 72     *        *        *     Request timed out.
+ 73  ^C
+C:\Users\Piyush Chauhan>tracert /h 100 www.iitd.ac.in
+
+Tracing route to www.iitd.ac.in [10.10.211.212]
+over a maximum of 100 hops:
+
+  1     2 ms     1 ms     2 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.5
+  3     1 ms     1 ms     1 ms  10.254.236.6
+  4     1 ms     1 ms     2 ms  www.iitd.ac.in [10.10.211.212]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.google.com
+
+Tracing route to www.google.com [142.250.207.196]
+over a maximum of 100 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     1 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6     3 ms     3 ms     3 ms  10.119.234.162
+  7     3 ms     9 ms     3 ms  72.14.194.160
+  8     4 ms     6 ms     4 ms  108.170.251.97
+  9     4 ms     5 ms     3 ms  142.251.76.169
+ 10     4 ms     4 ms     4 ms  del12s10-in-f4.1e100.net [142.250.207.196]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert www.facebook.com
+
+Tracing route to star-mini.c10r.facebook.com [157.240.16.35]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     1 ms     1 ms     1 ms  10.254.175.1
+  3     1 ms     1 ms     1 ms  10.255.1.34
+  4     1 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6    24 ms    24 ms    24 ms  10.1.200.137
+  7    26 ms    26 ms    26 ms  10.255.238.254
+  8    24 ms    24 ms    24 ms  10.152.7.214
+  9    26 ms    27 ms    26 ms  10.152.7.233
+ 10    26 ms    27 ms    68 ms  ae2.pr02.bom1.tfbnw.net [157.240.66.204]
+ 11    30 ms    30 ms    33 ms  po102.psw03.bom1.tfbnw.net [157.240.44.27]
+ 12    38 ms    39 ms    38 ms  173.252.67.147
+ 13    27 ms    27 ms    27 ms  edge-star-mini-shv-01-bom1.facebook.com [157.240.16.35]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.utah.edu
+
+Tracing route to www.utah.edu [64:ff9b::9b62:ba15]
+over a maximum of 100 hops:
+
+  1     4 ms     3 ms     3 ms  2409:40d0:14:3bf7::db
+  2    71 ms    27 ms    36 ms  2405:200:5202:21:3924:0:3:19
+  3    31 ms    23 ms    36 ms  2405:200:5202:21:3925::ff08
+  4    53 ms    36 ms    36 ms  2405:200:805:3630:61::4
+  5    61 ms    37 ms    46 ms  64:ff9b::ac11:be82
+  6    62 ms    35 ms    36 ms  64:ff9b::c0a8:2c1a
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11   101 ms    76 ms    60 ms  64:ff9b::67c6:8caa
+ 12   411 ms   343 ms   608 ms  64:ff9b::312d:455
+ 13   364 ms   390 ms   354 ms  be4844.ccr41.lax05.atlas.cogentco.com [64:ff9b::2668:54d1]
+ 14   343 ms   490 ms   306 ms  be3243.ccr41.lax01.atlas.cogentco.com [64:ff9b::9a36:1b75]
+ 15   534 ms   315 ms   321 ms  be3176.ccr21.sjc01.atlas.cogentco.com [64:ff9b::9a36:1fbe]
+ 16   317 ms   283 ms   286 ms  be3178.ccr21.sfo01.atlas.cogentco.com [64:ff9b::9a36:2b45]
+ 17   340 ms   312 ms   635 ms  be3109.ccr21.slc01.atlas.cogentco.com [64:ff9b::9a36:2c8a]
+ 18   364 ms   623 ms   350 ms  be2685.rcr01.b020767-1.slc01.atlas.cogentco.com [64:ff9b::9a36:2976]
+ 19   299 ms   561 ms   304 ms  64:ff9b::268e:e93a
+ 20   314 ms   288 ms   561 ms  lv3-beibr-a-184-int.uen.net [64:ff9b::8cc5:f975]
+ 21   296 ms   514 ms   310 ms  ebc-pep-a-178-int.uen.net [64:ff9b::8cc5:fd17]
+ 22     *        *        *     Request timed out.
+ 23   321 ms   305 ms   449 ms  64:ff9b::c768:5d16
+ 24   337 ms   305 ms   314 ms  64:ff9b::c768:5d21
+ 25   528 ms   283 ms   392 ms  64:ff9b::9b63:8241
+ 26   306 ms   289 ms   317 ms  64:ff9b::9b63:8267
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30   325 ms   286 ms   305 ms  uhome.web.utah.edu [64:ff9b::9b62:ba15]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.uct.ac.za
+
+Tracing route to cms-vip-prd.uct.ac.za [64:ff9b::899e:9fc0]
+over a maximum of 100 hops:
+
+  1     4 ms     4 ms     4 ms  2409:40d0:14:3bf7::db
+  2    59 ms    22 ms    36 ms  2405:200:5202:21:3924:0:3:19
+  3    56 ms    36 ms    36 ms  2405:200:5202:21:3925::ff08
+  4    51 ms    29 ms    38 ms  2405:200:805:3630:61::4
+  5    32 ms    37 ms    24 ms  64:ff9b::ac11:be82
+  6    60 ms    23 ms    37 ms  64:ff9b::c0a8:2c1a
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11   140 ms    76 ms    95 ms  64:ff9b::67c6:8cb0
+ 12   210 ms   230 ms   181 ms  64:ff9b::67c6:8cd7
+ 13   204 ms   184 ms   192 ms  64:ff9b::67c6:8c2d
+ 14   208 ms   189 ms   194 ms  64:ff9b::c342:e37e
+ 15   244 ms   199 ms   197 ms  lt-0-1-0-0-ldn1-ir1.net.tenet.ac.za [64:ff9b::9be8:d00a]
+ 16   216 ms   187 ms   196 ms  et-0-1-0-0-ams1-ir1.net.tenet.ac.za [64:ff9b::9be8:1b3]
+ 17   377 ms   361 ms     *     ae0-306-mtz1-ir1.net.tenet.ac.za [64:ff9b::9be8:156]
+ 18   398 ms   381 ms   368 ms  lt-1-0-0-1-mtz1-ir1.net.tenet.ac.za [64:ff9b::9be8:9816]
+ 19   384 ms   558 ms   629 ms  lt-1-0-0-0-mtz1-ir1.net.tenet.ac.za [64:ff9b::9be8:9817]
+ 20   561 ms   643 ms   628 ms  et-1-1-1-0-isd1-pe1.net.tenet.ac.za [64:ff9b::9be8:199]
+ 21   603 ms   635 ms   635 ms  et-1-1-4-0-cpt3-pe1.net.tenet.ac.za [64:ff9b::9be8:194]
+ 22   525 ms   637 ms   634 ms  et-0-0-1-0-cpt7-pe1.net.tenet.ac.za [64:ff9b::9be8:4046]
+ 23   562 ms   633 ms   639 ms  64:ff9b::9a72:7c01
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+ 31     *        *        *     Request timed out.
+ 32     *        *        *     Request timed out.
+ 33     *        *        *     Request timed out.
+ 34     *        *        *     Request timed out.
+ 35     *        *        *     Request timed out.
+ 36     *        *        *     Request timed out.
+ 37     *        *        *     Request timed out.
+ 38     *        *        *     Request timed out.
+ 39     *        *        *     Request timed out.
+ 40     *        *        *     Request timed out.
+ 41     *        *        *     Request timed out.
+ 42     *        *        *     Request timed out.
+ 43     *        *        *     Request timed out.
+ 44     *        *        *     Request timed out.
+ 45     *        *        *     Request timed out.
+ 46     *        *        *     Request timed out.
+ 47     *        *        *     Request timed out.
+ 48     *        *        *     Request timed out.
+ 49  ^C
+
+
+
+C:\Users\Piyush Chauhan>tracert www.utah.edu
+
+Tracing route to www.utah.edu [155.98.186.21]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     1 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6    27 ms    26 ms    26 ms  10.1.207.65
+  7    27 ms    27 ms    27 ms  10.1.200.137
+  8    38 ms    40 ms    40 ms  10.255.238.254
+  9    30 ms    30 ms    28 ms  180.149.48.18
+ 10   180 ms   179 ms   180 ms  180.149.48.6
+ 11   180 ms   177 ms   171 ms  180.149.48.20
+ 12   259 ms   256 ms   262 ms  180.149.48.13
+ 13   310 ms   310 ms   312 ms  fourhundredge-0-0-0-2.4079.core1.ashb.net.internet2.edu [163.253.1.116]
+ 14   313 ms   312 ms   313 ms  fourhundredge-0-0-0-17.4079.core2.ashb.net.internet2.edu [163.253.1.9]
+ 15   320 ms   323 ms   321 ms  fourhundredge-0-0-0-1.4079.core2.clev.net.internet2.edu [163.253.1.139]
+ 16   312 ms   311 ms   310 ms  fourhundredge-0-0-0-2.4079.core2.eqch.net.internet2.edu [163.253.2.17]
+ 17   324 ms   323 ms   323 ms  fourhundredge-0-0-0-2.4079.core2.chic.net.internet2.edu [163.253.2.18]
+ 18   326 ms   331 ms   321 ms  fourhundredge-0-0-0-1.4079.core1.kans.net.internet2.edu [163.253.1.245]
+ 19   314 ms   318 ms   311 ms  fourhundredge-0-0-0-1.4079.core1.denv.net.internet2.edu [163.253.1.242]
+ 20   422 ms   315 ms   402 ms  fourhundredge-0-0-0-3.4079.core1.salt.net.internet2.edu [163.253.1.171]
+ 21   310 ms   358 ms   311 ms  fourhundredge-0-0-0-1.4079.core1.lasv.net.internet2.edu [163.253.1.152]
+ 22   314 ms   314 ms   316 ms  163.253.5.7
+ 23   312 ms   310 ms   317 ms  scc-pep-a-158-int.uen.net [140.197.253.6]
+ 24   317 ms   316 ms   315 ms  scc-pep-b-159-int.uen.net [140.197.252.47]
+ 25   318 ms   333 ms   319 ms  lv3-beibr-a-184-int.uen.net [140.197.253.38]
+ 26   317 ms   316 ms   317 ms  ebc-pep-a-178-int.uen.net [140.197.253.23]
+ 27     *        *        *     Request timed out.
+ 28   316 ms   319 ms   316 ms  199.104.93.22
+ 29   323 ms   324 ms   327 ms  199.104.93.29
+ 30   312 ms     *      321 ms  155.99.130.59
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert www.iitd.ac.in
+
+Tracing route to www.iitd.ac.in [2001:df4:e000:29::212]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  2001:df4:e000:3fd1::2
+  2     3 ms     4 ms     2 ms  2001:df4:e000:108::1
+  3     2 ms     1 ms     1 ms  2001:df4:e000:26::24
+  4     1 ms    23 ms     1 ms  2001:df4:e000:29::212
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert www.google.com
+
+Tracing route to www.google.com [2404:6800:4002:82e::2004]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  2001:df4:e000:3fd1::2
+  2     3 ms     2 ms     2 ms  2001:df4:e000:108::1
+  3     2 ms     1 ms     2 ms  2405:8a00:a:2::c6
+  4    23 ms     1 ms     1 ms  2405:8a00:a:2::c5
+  5     4 ms     4 ms    14 ms  2405:8a00::16
+  6     4 ms     7 ms     3 ms  2405:8a00:a:10::2
+  7    31 ms     6 ms     5 ms  2001:4860:1:1:0:269d::
+  8     6 ms     5 ms     6 ms  2001:4860:0:11de::1
+  9     9 ms     9 ms    41 ms  2001:4860:0:1::5e45
+ 10    44 ms     6 ms     4 ms  del12s10-in-x04.1e100.net [2404:6800:4002:82e::2004]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert www.facebook.com
+
+Tracing route to star-mini.c10r.facebook.com [2a03:2880:f12f:83:face:b00c:0:25de]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  2001:df4:e000:3fd1::2
+  2     2 ms     2 ms     2 ms  2001:df4:e000:108::1
+  3     2 ms     1 ms     1 ms  2405:8a00:a:2::c6
+  4     2 ms    17 ms     1 ms  2405:8a00:a:2::c5
+  5    34 ms    39 ms    40 ms  2001:4408:a::1
+  6    37 ms    38 ms    36 ms  ::ffff:10.255.255.10
+  7    43 ms    46 ms    44 ms  2405:8a00:2::3
+  8    41 ms    44 ms    53 ms  2405:8a00:a:14::2
+  9    52 ms    50 ms    53 ms  ae2.pr02.bom1.tfbnw.net [2620:0:1cff:dead:beee::a1c]
+ 10    52 ms    51 ms    48 ms  po102.psw04.bom1.tfbnw.net [2620:0:1cff:dead:bef0::185]
+ 11    55 ms    40 ms    38 ms  po4.msw1ab.01.bom1.tfbnw.net [2a03:2880:f02f:ffff::9f]
+ 12   105 ms    43 ms    33 ms  edge-star-mini6-shv-01-bom1.facebook.com [2a03:2880:f12f:83:face:b00c:0:25de]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 www.utah.edu
+
+Tracing route to www.utah.edu [155.98.186.21]
+over a maximum of 100 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     2 ms     2 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     2 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6    75 ms    64 ms    60 ms  10.1.207.65
+  7    28 ms    29 ms    32 ms  10.1.200.137
+  8    44 ms    40 ms    39 ms  10.255.238.254
+  9    29 ms    33 ms    28 ms  180.149.48.18
+ 10   180 ms   183 ms   187 ms  180.149.48.6
+ 11   170 ms   170 ms   209 ms  180.149.48.20
+ 12   290 ms   256 ms   264 ms  180.149.48.13
+ 13   318 ms   310 ms   311 ms  fourhundredge-0-0-0-2.4079.core1.ashb.net.internet2.edu [163.253.1.116]
+ 14   311 ms   312 ms   314 ms  fourhundredge-0-0-0-17.4079.core2.ashb.net.internet2.edu [163.253.1.9]
+ 15   319 ms   319 ms   321 ms  fourhundredge-0-0-0-1.4079.core2.clev.net.internet2.edu [163.253.1.139]
+ 16   315 ms   319 ms   313 ms  fourhundredge-0-0-0-2.4079.core2.eqch.net.internet2.edu [163.253.2.17]
+ 17   323 ms   325 ms   323 ms  fourhundredge-0-0-0-2.4079.core2.chic.net.internet2.edu [163.253.2.18]
+ 18   326 ms   321 ms   321 ms  fourhundredge-0-0-0-1.4079.core1.kans.net.internet2.edu [163.253.1.245]
+ 19   311 ms   310 ms   311 ms  fourhundredge-0-0-0-1.4079.core1.denv.net.internet2.edu [163.253.1.242]
+ 20   326 ms   340 ms   328 ms  fourhundredge-0-0-0-3.4079.core1.salt.net.internet2.edu [163.253.1.171]
+ 21   311 ms   314 ms   310 ms  fourhundredge-0-0-0-1.4079.core1.lasv.net.internet2.edu [163.253.1.152]
+ 22   312 ms   312 ms   312 ms  163.253.5.7
+ 23   310 ms   310 ms   315 ms  scc-pep-a-158-int.uen.net [140.197.253.6]
+ 24   334 ms   349 ms   321 ms  scc-pep-b-159-int.uen.net [140.197.252.47]
+ 25   357 ms   335 ms   339 ms  lv3-beibr-a-184-int.uen.net [140.197.253.38]
+ 26   320 ms   316 ms   324 ms  ebc-pep-a-178-int.uen.net [140.197.253.23]
+ 27     *        *        *     Request timed out.
+ 28   338 ms   330 ms   342 ms  199.104.93.22
+ 29   326 ms   323 ms   322 ms  199.104.93.29
+ 30   319 ms   319 ms   316 ms  155.99.130.59
+ 31   334 ms   347 ms   433 ms  155.99.130.105
+ 32   325 ms   310 ms   324 ms  172.31.241.255
+ 33   324 ms   320 ms   321 ms  172.31.241.22
+ 34   313 ms   315 ms   315 ms  172.31.241.25
+ 35   324 ms   341 ms   321 ms  uhome.web.utah.edu [155.98.186.21]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>nslookup www.utah.edu
+Server:  UnKnown
+Address:  2001:df4:e000:29::104
+
+Non-authoritative answer:
+Name:    www.utah.edu
+Address:  155.98.186.21
+
+
+C:\Users\Piyush Chauhan>nslookup www.google.com
+Server:  UnKnown
+Address:  2001:df4:e000:29::104
+
+Non-authoritative answer:
+Name:    www.google.com.ac.in
+Addresses:  ::ffff:146.112.61.110
+          146.112.61.110
+
+
+C:\Users\Piyush Chauhan>nslookup www.facebook.com
+Server:  UnKnown
+Address:  2001:df4:e000:29::104
+
+Non-authoritative answer:
+Name:    www.facebook.com.ac.in
+Addresses:  ::ffff:146.112.61.110
+          146.112.61.110
+
+
+C:\Users\Piyush Chauhan>tracert 8.8.4.4
+
+Tracing route to dns.google [8.8.4.4]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     2 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     3 ms     3 ms     3 ms  10.119.234.162
+  8    16 ms    13 ms    14 ms  72.14.194.160
+  9     *        *        *     Request timed out.
+ 10     4 ms     4 ms     4 ms  216.239.57.113
+ 11     4 ms     4 ms     4 ms  dns.google [8.8.4.4]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert 74.125.190.9
+
+Tracing route to 74.125.190.9 over a maximum of 30 hops
+
+  1    11 ms    44 ms    44 ms  10.184.0.13
+  2     2 ms     1 ms     2 ms  10.254.175.1
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert /h 100 74.125.190.0
+
+Tracing route to 74.125.190.0 over a maximum of 100 hops
+
+  1     2 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     1 ms     1 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     1 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     5 ms     3 ms     3 ms  10.119.234.162
+  8     8 ms     7 ms     8 ms  72.14.194.160
+  9     4 ms     4 ms     4 ms  74.125.244.204
+ 10    47 ms    43 ms    45 ms  72.14.239.11
+ 11    75 ms   104 ms    74 ms  209.85.242.157
+ 12    69 ms    69 ms    69 ms  209.85.255.128
+ 13    75 ms    75 ms    76 ms  216.239.54.21
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *     Transmit error: code 1231.
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>
+
+
+
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Piyush Chauhan>tracert 185.89.218.12
+
+Tracing route to c.ns.facebook.com [185.89.218.12]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     1 ms     1 ms     1 ms  10.254.175.5
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     2 ms     1 ms    13 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6    92 ms    95 ms    94 ms  10.1.207.65
+  7     *        *        *     Request timed out.
+  8     *      124 ms   128 ms  10.255.238.122
+  9     *       83 ms    87 ms  10.152.7.214
+ 10   103 ms     *      105 ms  10.152.7.233
+ 11    38 ms    37 ms    39 ms  115.247.69.85
+ 12     *        *        *     Request timed out.
+ 13    61 ms    58 ms    54 ms  ae0.pr02.maa2.tfbnw.net [157.240.68.92]
+ 14    60 ms    61 ms    55 ms  po102.psw04.maa2.tfbnw.net [129.134.34.157]
+ 15    65 ms    68 ms    72 ms  157.240.36.111
+ 16    67 ms    65 ms    67 ms  c.ns.facebook.com [185.89.218.12]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert 129.134.30.12
+
+Tracing route to a.ns.facebook.com [129.134.30.12]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     2 ms     1 ms  10.254.175.1
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *     Transmit error: code 1231.
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>nbtstat -A 64.18.0.0
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+Wi-Fi:
+Node IpAddress: [10.184.30.159] Scope Id: []
+
+    Host not found.
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+Local Area Connection* 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+C:\Users\Piyush Chauhan>nbstat -A 8.8.8.8
+'nbstat' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+C:\Users\Piyush Chauhan>tracert 192.33.4.12
+
+Tracing route to c.root-servers.net [192.33.4.12]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     2 ms     2 ms     3 ms  10.254.175.1
+  3     2 ms     1 ms     1 ms  10.255.1.34
+  4     2 ms     1 ms     1 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     3 ms     3 ms     3 ms  10.119.234.162
+  8     5 ms     4 ms     4 ms  136.232.148.177
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14   161 ms   253 ms   159 ms  be2779.ccr41.par01.atlas.cogentco.com [154.54.72.109]
+ 15   153 ms   152 ms   152 ms  be2097.agr22.par01.atlas.cogentco.com [130.117.49.77]
+ 16   153 ms   153 ms   152 ms  te0-0-2-1.c-root.par01.atlas.cogentco.com [154.54.77.186]
+ 17   149 ms   149 ms   148 ms  c.root-servers.net [192.33.4.12]
+
+Trace complete.
+
+C:\Users\Piyush Chauhan>tracert 34.146.177.122
+
+Tracing route to 122.177.146.34.bc.googleusercontent.com [34.146.177.122]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.184.0.13
+  2     1 ms     1 ms     1 ms  10.254.175.5
+  3     1 ms     1 ms     1 ms  10.255.1.34
+  4     4 ms     2 ms     2 ms  10.119.233.65
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     3 ms     3 ms     3 ms  10.119.234.162
+  8     9 ms     3 ms    10 ms  72.14.195.56
+  9   143 ms   141 ms   141 ms  122.177.146.34.bc.googleusercontent.com [34.146.177.122]
+
+Trace complete.
+
+
